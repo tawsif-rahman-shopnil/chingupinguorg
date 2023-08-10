@@ -49,7 +49,7 @@ if(!isset($_SESSION['user'])) {
 		<header class="main-header">
 
 			<a href="index.php" class="logo">
-				<span class="logo-lg">eCommerce PHP</span>
+				<span class="logo-lg">ChinguPingu.org Admin Panel</span>
 			</a>
 
 			<nav class="navbar navbar-static-top">
@@ -165,12 +165,6 @@ if(!isset($_SESSION['user'])) {
 			        <li class="treeview <?php if( ($cur_page == 'social-media.php') ) {echo 'active';} ?>">
 			          <a href="social-media.php">
 			            <i class="fa fa-globe"></i> <span>Social Media</span>
-			          </a>
-			        </li>
-
-			        <li class="treeview <?php if( ($cur_page == 'subscriber.php')||($cur_page == 'subscriber.php') ) {echo 'active';} ?>">
-			          <a href="subscriber.php">
-			            <i class="fa fa-hand-o-right"></i> <span>Subscriber</span>
 			          </a>
 			        </li>
 

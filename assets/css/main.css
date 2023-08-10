@@ -2146,3 +2146,98 @@ div.pagination span.disabled {
   padding-left: 15px;
   padding-right: 15px;
 }
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+}
+
+.footer h4 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  color: #777;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons a {
+  color: #555;
+  font-size: 20px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.footer-bottom .copyright {
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Scrollup Button */
+.scrollup {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  display: none;
+}
+
+/* Logo Styles */
+.logo img {
+  width: 200px;
+  height: 80px;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+  .footer {
+      text-align: center;
+  }
+
+  .footer h4 {
+      margin-bottom: 15px;
+  }
+
+  .footer p {
+      margin-bottom: 15px;
+  }
+
+  .social-icons {
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  .scrollup {
+      bottom: 15px;
+      right: 15px;
+      font-size: 16px;
+      padding: 8px;
+  }
+}

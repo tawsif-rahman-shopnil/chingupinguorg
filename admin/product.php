@@ -71,8 +71,8 @@
 									<td><?php echo $i; ?></td>
 									<td style="width:82px;"><img src="../assets/uploads/<?php echo $row['p_featured_photo']; ?>" alt="<?php echo $row['p_name']; ?>" style="width:80px;"></td>
 									<td><?php echo $row['p_name']; ?></td>
-									<td>$<?php echo $row['p_old_price']; ?></td>
-									<td>$<?php echo $row['p_current_price']; ?></td>
+									<td>৳<?php echo $row['p_old_price']; ?></td>
+									<td>৳<?php echo $row['p_current_price']; ?></td>
 									<td><?php echo $row['p_qty']; ?></td>
 									<td>
 										<?php if($row['p_is_featured'] == 1) {echo '<span class="badge badge-success" style="background-color:green;">Yes</span>';} else {echo '<span class="badge badge-success" style="background-color:red;">No</span>';} ?>

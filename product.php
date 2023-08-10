@@ -459,9 +459,9 @@ if($success_message1 != '') {
                                 <span style="font-size:14px;"><?php echo LANG_VALUE_54; ?></span><br>
                                 <span>
                                     <?php if($p_old_price!=''): ?>
-                                        <del><?php echo LANG_VALUE_1; ?><?php echo $p_old_price; ?></del>
+                                        <del><?php echo '৳'; ?><?php echo $p_old_price; ?></del>
                                     <?php endif; ?> 
-                                        <?php echo LANG_VALUE_1; ?><?php echo $p_current_price; ?>
+                                        <?php echo '৳'; ?><?php echo $p_current_price; ?>
                                 </span>
                             </div>
                             <input type="hidden" name="p_current_price" value="<?php echo $p_current_price; ?>">

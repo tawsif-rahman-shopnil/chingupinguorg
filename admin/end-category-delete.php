@@ -18,7 +18,7 @@ if(!isset($_REQUEST['id'])) {
 ?>
 
 <?php
-	
+	$p_ids = array(); // Initialize the $p_ids array
 
 	// Getting all ecat ids
 	$statement = $pdo->prepare("SELECT * FROM tbl_product WHERE ecat_id=?");
@@ -82,7 +82,6 @@ if(!isset($_REQUEST['id'])) {
 		$statement = $pdo->prepare("DELETE FROM tbl_order WHERE product_id=?");
 		$statement->execute(array($p_ids[$i]));
 	}
-
 	// Delete from tbl_end_category
 	$statement = $pdo->prepare("DELETE FROM tbl_end_category WHERE ecat_id=?");
 	$statement->execute(array($_REQUEST['id']));

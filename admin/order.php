@@ -216,7 +216,7 @@ if($success_message != '') {
                                 echo '<br>(<b>Size:</b> '.$row1['size'];
                                 echo ', <b>Color:</b> '.$row1['color'].')';
                                 echo '<br>(<b>Quantity:</b> '.$row1['quantity'];
-                                echo ', <b>Unit Price:</b> '.$row1['unit_price'].')';
+                                echo ', <b>Unit Price:৳</b> '.$row1['unit_price'].')';
                                 echo '<br><br>';
                            }
                            ?>
@@ -243,7 +243,7 @@ if($success_message != '') {
                         		<b>Transaction Information:</b> <br><?php echo $row['bank_transaction_info']; ?><br>
                         	<?php endif; ?>
                         </td>
-                        <td>$<?php echo $row['paid_amount']; ?></td>
+                        <td>৳<?php echo $row['paid_amount']; ?></td>
                         <td>
                             <?php echo $row['payment_status']; ?>
                             <br><br>
