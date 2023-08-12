@@ -66,11 +66,11 @@ if(isset($_POST['form1'])) {
 
 <div class="login-box">
 	<div class="login-logo">
-		<b>Admin Panel</b>
+	<img src="img/logo.png" alt="Logo"></br>
+	<b>Admin Area</b>
 	</div>
   	<div class="login-box-body">
-    	<p class="login-box-msg">Log in to start your session</p>
-    
+    	<p class="login-box-msg"></p>
 	    <?php 
 	    if( (isset($error_message)) && ($error_message!='') ):
 	        echo '<div class="error">'.$error_message.'</div>';

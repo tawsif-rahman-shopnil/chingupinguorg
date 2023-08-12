@@ -6,3 +6,13 @@
 @import url("all/line/_all.css");
 @import url("all/polaris/polaris.css");
 @import url("all/futurico/futurico.css");
+
+    .login-logo {
+        text-align: center; /* Center the logo */
+        margin-bottom: 20px; /* Add some space below the logo */
+    }
+    
+    .login-logo img {
+        max-width: 300px; /* Set the width to 200px */
+        height: 100px; /* Set the height to 80px */
+    }
